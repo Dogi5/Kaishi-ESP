@@ -34,15 +34,15 @@ Para una explicación de como usar el mazo ve la [guia](https://donkuri.github.i
 
 ## Otros mazos relacionados
 
-ねむい hizo un mazo de radicales basado en Kaishi 1.5k, conectando cada uno de los radicales que se encuentran en el mazo con la primer palabra que los muestra en Kaishi, tambien cubre algunos radicales extra que no se encuentran en Kaishi. **Puedes usar dicho mazo en paralelo con Kaishi si es que tienes mucha dificultad para diferenciar los kanji y sus radicales** esto te ayudara a diferenciarlos de maneras más sencilla y eficiente aunque no es obligatorio si no quieres. Encuentra su mazo  can find the deck [aquí en AnkiWeb](https://ankiweb.net/shared/info/1722008986). ¡Muchas gracias ねむい!
+ねむい hizo un mazo de radicales basado en Kaishi 1.5k, conectando cada uno de los radicales que se encuentran en el mazo con la primer palabra que los muestra en Kaishi, tambien cubre algunos radicales extra que no se encuentran en Kaishi. **Puedes usar dicho mazo en paralelo con Kaishi si es que tienes mucha dificultad para diferenciar los kanji y sus radicales** esto te ayudara a diferenciarlos de maneras más sencilla y eficiente aunque no es obligatorio si no quieres. Encuentra su mazo [aquí en AnkiWeb](https://ankiweb.net/shared/info/1722008986). ¡Muchas gracias ねむい!
 
 ## ¿Qué opciones estan disponibles para este mazo?
 
-Existen multiples opciones de personalización para este mazo y sus tarjetas, para hacerlo, entra a Anki, selecciona Kaishi y luego `Explorar`, elige cualquier tarjeta del deck y da click en `Tarjetas...` arriba a la derecha.
+Existen multiples opciones de personalización para este mazo y sus tarjetas, para culquier modificación, entra a Anki, selecciona Kaishi y luego `Explorar`, elige cualquier tarjeta del deck y da click en `Tarjetas...` arriba a la derecha.
 
 ### Acento Tonal/Pitch Accent
 
-Lo más importante a considerar aquí es si tu quieres o no incluir el acento tonal en tus tarjetas. Actualmente se debate en la comunidad de aprendizaje la importancia del estudio del acento tonal y cuando debería de empezar a estudiarse. Se decidió tomar un enfoque neutral y añadirlo pero dejarlo a consideración del estudiante el activarlo o no; de todas maneras si después cambias de opinión respecto al tema siempre puedes activarlo o desactivarlo. Para activarlo solo tienes que hacer lo siguiente, estas son las opciones de  `Plantilla del reverso` para verlas en anki da click arruba de la barra de busqueda.
+Lo más importante a considerar aquí es si tu quieres o no incluir el acento tonal en tus tarjetas. Actualmente se debate en la comunidad de aprendizaje la importancia del estudio del acento tonal y cuando debería de empezar a estudiarse. Se decidió tomar un enfoque neutral y añadirlo pero dejarlo a consideración del estudiante el activarlo o no; de todas maneras si después cambias de opinión respecto al tema siempre puedes activarlo o desactivarlo. Para activarlo solo tienes que hacer lo siguiente, busca las opciones de  `Plantilla del reverso` para verlas en anki da click arriba de la barra de busqueda.
 
 ```CSS
 <div lang="ja">
@@ -129,7 +129,7 @@ Si quisieras eliminar el furigana simplemente borra `furigana:` de la plantilla 
 
 #### Otras opciones de tarjetas
 
-Si así lo deseas podrías cambiar por completo el diseño de la tarjeta. Aquí esta la plantilla `Front Template` de Kaishi 1.5k:
+Si así lo deseas podrías cambiar por completo el diseño de la tarjeta. Aquí esta la plantilla `Plantilla del anverso` de Kaishi 1.5k:
 
 ```CSS
 <div lang="ja">
@@ -138,7 +138,7 @@ Si así lo deseas podrías cambiar por completo el diseño de la tarjeta. Aquí 
 </div>
 ```
 
-Como puedes ver solo tenemos frase y palabra. Si quisieras tarjetas de *oraciones*, simplemente elimina `{{Word}}` o pon `Sentence` en su lugar y elimina lo demás. Si quieres tarjetas de *palabras*, simplemente elimina el `<div style='font-size: 20px;'>{{Sentence}}</div>` Y si solo quiere tarjetas de *audio*, quita todo y añade lo siguiente  `{{Word Audio}}` y/o `{{Sentence Audio}}` el primero para el audio de la palabra, el segundo para el audio de la oración, o ambos si así lo deseas.
+Como puedes ver solo tenemos frase y palabra. Si quisieras tarjetas de *oraciones*, simplemente elimina `{{Word}}` o pon `Sentence` en su lugar y elimina lo demás. Si quieres tarjetas de *palabras*, simplemente elimina el `<div style='font-size: 20px;'>{{Sentence}}</div>` Y si solo quieres tarjetas de *audio*, quita todo y añade lo siguiente  `{{Word Audio}}` y/o `{{Sentence Audio}}` el primero para el audio de la palabra, el segundo para el audio de la oración, o ambos si así lo quieres.
 
 #### Cambiando las fuentes, tamaño y/o estilo
 
@@ -164,21 +164,21 @@ max-width: 50vw;
 b{color: #5586cd}
 ```
 
-Puedes encontrar diferentes opciones de estilo [aquí](https://docs.ankiweb.net/templates/styling.html). Como puedes observar Kasihi 1.5k usa muy pocas opciones en la tabla de diseño directamente. Puedes cambiar la opción de `font-family` para usar diferentes fuentes, `font-size` para cambiar el tamaño `text-align` para cambiar el alineamiento del texto, por ejemplo, si quisieras que estuviera en el borde izquierdo. Por determinado, Kaishi 1.5k colorea en **negritas** las palabras. Para cambiar esta opción ve a `b{color: }`  Y pon un codigo hexcode o un nombre color en inglés como `red` *rojo* para cambiarlo a ese color. Si no quisieras que tuviera color elimina `b{color: }`
+Puedes encontrar diferentes opciones de estilo [aquí](https://docs.ankiweb.net/templates/styling.html). Como puedes observar Kasihi 1.5k usa muy pocas opciones en la tabla de diseño directamente. Puedes cambiar la opción de `font-family` para usar diferentes fuentes, `font-size` para cambiar el tamaño `text-align` para cambiar el alineamiento del texto, por ejemplo, si quisieras que estuviera en el borde izquierdo. Por determinado, Kaishi 1.5k colorea en **negritas** las palabras. Para cambiar esta opción ve a `b{color: }`  Y pon un codigo hexcode o un color en inglés como `red` *(rojo)* para cambiarlo a ese color. Si no quisieras que tuviera color alguno elimina `b{color: }`.
 
 ## ¿Cómo añado el Kaishi a un mazo ya existente?
 
-Si ya inciaste Core2k o Tango N4-N5 (o algún deck similar) y quieres cambiar a Kaishi 1.5k, puedes seguir los pasos escritos por [Kuuube](https://github.com/Kuuuube). *Link en inglés*
+Si ya inciaste Core2k o Tango N4-N5 (o algún deck similar) y quieres cambiar a Kaishi 1.5k, puedes seguir los pasos escritos por [Kuuube](https://github.com/Kuuuube).
 
 1. Importa Kaishi normalmente con el archivo .apkg.
 2. Ve a `Archivo > Exportar...` y exporta el Kaishi usando `Notas en texto plano (.txt)`. Deja todo lo demás por determinado.
 3. Borra el Kaishi.
 4. Selecciona el mazo al que quieres añadir el Kaishi, `Explorar`, click en cualquier tarjeta, presiona `ctrl + a`, y selecciona `Notas > Cambiar tipo de notas...` arriba a la izquierda. Asegurate de que todas las tarjetas que seleccionaste son del mismo tipo, de no serlo, puede que `Notas > Cambiar tipo de notas...` no aparezca como opción.
-5. Cambia al tipo de notas `Kaishi 1.5k`. Asegurate de que el campo `Word` aparezca en la columna `Nuevo` en el campo que usa tu tipo de tarjeta para mostrar la palabra, de tal forma que queden alienados ambos campos.
+5. Cambia al tipo de notas a `Kaishi 1.5k`. Asegurate de que el campo `Word` aparezca en la columna `Nuevo` en el campo que usa tu tipo de tarjeta para mostrar la palabra, de tal forma que queden alienados ambos campos.
     Si no planeas borrar ninguna tarjeta de tu mazo actual que no este en Kaishi, asegurate de que los otros campos tambien esten alineados, si no es tu caso, deja los demás campos como estan y da click a `Guardar`.
 6. Importa el archivo .txt. de Kaishi del paso 2.
 7. Cuando importes, presta atención en que tu tipo de nota sea `Kaishi 1.5k` y que el deck este puesto de tal manera que se añada a tu mazo ya existente.
-  Si planeas borrar borrar tarjetas que no esten en Kaishi entonces asegurate de eitquetarlas con el nombre `Kaishi` en el campo `Etiquetar toda la notas`.
+  Si planeas borrar borrar tarjetas que no esten en Kaishi entonces asegurate de en este momento etiquetarlas con el nombre `Kaishi` en el campo `Etiquetar toda la notas`.
 8. Da click a `Importar`.
 9. Para borrar las tarjetas que no sean Kaishi, seleccina tu mazo y da click en `Explorar`, seleccion tu mazo en el menu izquierdo, añade, ` -etiqueta:Kaishi` a la barra de busqueda, selecciona cualquier tarjeta y presiona  `ctrl + a`, en el menu arriba a la izquierda da click en  `Notas > Eliminar`.
 
