@@ -2,11 +2,11 @@
 
 Bienvendio al repositorio público de **Kaishi 1.5k**, un deck de Anki moderno para aquellos que quieren aprender el vocabulario básico. El Kaishi 1.5k es sumamemente modular y en esta página podrás consultar como modifcarlo a tus gustos/necesidades. Así se ve el frente de la tarjeta:
 
-![Image](https://github.com/user-attachments/assets/331b78cc-62ea-4d00-a1f0-a3f6fdbef27f)
+![image_2025-04-28_161730769](https://github.com/user-attachments/assets/542fbb57-3c07-4984-a50f-edeec41d4081)
 
 Como puedes ver tanto la palabra como la oración se encuentran al frente, con la palabra **resaltada** facilitando el aislarla de la oración y reconocerla rapidamente. Una vez que domines el mazo será más rapido repasar ya que podrás identificar la información imporante con solo un vistazo. Aquí el reverso de la tarjeta:
 
-![Image](https://github.com/user-attachments/assets/d23e451a-4916-44b0-a651-4598039714b3)
+![image_2025-04-28_161853201](https://github.com/user-attachments/assets/00f0fd95-8e54-48fe-a98a-860df3c7da9f)
 
 En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de este, el significado. El audio tanto de la palabra como oración tambien se encuentran presentes y si gustas, puedes añadir el acento tonal siguiendo las instrucciones de abajo. Y en caso de haber notas extra para una tarjeta se mostraran hasta abajo en el reverso.
 [Si eres nuevo a la inmersión lee esta guia primero.](https://donkuri.github.io/learn-japanese/guide/) (*Link en inglés*)
