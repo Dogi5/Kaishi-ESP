@@ -36,7 +36,7 @@ Para una explicación de como usar el mazo ve la [guia](https://donkuri.github.i
 
 ねむい hizo un mazo de radicales basado en Kaishi 1.5k, conectando cada uno de los radicales que se encuentran en el mazo con la primer palabra que los muestra en Kaishi, tambien cubre algunos radicales extra que no se encuentran en Kaishi. **Puedes usar dicho mazo en paralelo con Kaishi si es que tienes mucha dificultad para diferenciar los kanji y sus radicales** esto te ayudara a diferenciarlos de maneras más sencilla y eficiente aunque no es obligatorio si no quieres. Encuentra su mazo  can find the deck [aquí en AnkiWeb](https://ankiweb.net/shared/info/1722008986). ¡Muchas gracias ねむい!
 
-## ¿Qué opciones estan disponibles para este deck?
+## ¿Qué opciones estan disponibles para este mazo?
 
 Existen multiples opciones de personalización para este mazo y sus tarjetas, para hacerlo, entra a Anki, selecciona Kaishi y luego `Explorar`, elige cualquier tarjeta del deck y da click en `Tarjetas...` arriba a la derecha.
 
