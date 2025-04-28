@@ -18,7 +18,7 @@ En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de e
 - [¿Cómo uso el mazo?](#Cómo-uso-el-mazo)
 - [Otros mazos relacionados](#Otros-mazos-relacionados)
 - [¿Qué opciones estan disponibles para este mazo?](#Qué-opciones-estan-disponibles-para-este-mazo)
-- [¿Cómo añado el Kaishi a un mazo ya existente?](#Cómo-añado-al-Kaishi-a-un-mazo-ya-existente)
+- [¿Cómo añado el Kaishi a un mazo ya existente?](#Cómo-añado-el-Kaishi-a-un-mazo-ya-existente)
 - [El nacimiento de este mazo](#El-nacimiento-de-este-mazo)
 - [Traducción del mazo](#Traducción-del-mazo)
 - [¿Qué hago depués de este mazo?](#Qué-hago-depués-de-este-mazo)
