@@ -193,7 +193,9 @@ Kaishi, escrito 開始 significa "Inicio, Comienzo". Pensamos que como nombre le
 
 ## ¿Qué hago depués de este mazo?
 
-[Empieza a minar](https://donkuri.github.io/learn-japanese/guide/#consuming-native-content) *link en inglés* si todavía no lo has hecho. Y mira [esto](https://github.com/donkuri/japanese-resources/?tab=readme-ov-file#mining) es una lista de tipos de notas de minado.
+[Empieza a minar](https://donkuri.github.io/learn-japanese/guide/#consuming-native-content) *link en inglés* si todavía no lo has hecho. Y mira [esto](https://github.com/donkuri/japanese-resources/?tab=readme-ov-file#mining) es una lista de tipos de notas de minado. 
+**Nota del traductor**
+*Puedes encontrar información semejante en español* [*aquí*](https://brigadasos.xyz/guia-principal/inmersion)
 
 ## Traducción del mazo
 
