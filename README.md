@@ -14,8 +14,8 @@ En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de e
 ### Tabla de contenidos
 
 - [¿Donde consigo el mazo?](#Donde-consigo-el-mazo)
-- [¿Cómo uso el mazo?](#how-do-i-use-this-deck)
-- [Otros mazos relacionados](#other-related-decks)
+- [¿Cómo uso el mazo?](#¿Cómo-uso-el-mazo?)
+- [Otros mazos relacionados](#Otros mazos relacionados)
 - [¿Qué opciones estan disponibles para este deck?](#what-options-are-available-for-the-deck)
 - [¿Cómo añado al Kaishi a un mazo ya existente?](#how-to-import-kaishi-on-top-of-another-deck)
 - [El nacimiento de este mazo](#the-genesis-of-the-deck)
@@ -25,15 +25,15 @@ En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de e
 
 ## ¿Donde consigo el mazo?
 
-Puedes descargarlo en [releases](https://github.com/donkuri/Kaishi/releases/) page of this GitHub or on [AnkiWeb](https://ankiweb.net/shared/info/1196762551), provided the deck is not undergoing review. **The deck is supported on Anki 2.1.50+.**
+Puedes descargarlo en la página de [lanzamientos](https://github.com/donkuri/Kaishi/releases/) de este GitHub o en [AnkiWeb](https://ankiweb.net/shared/info/1196762551), solo si el deck no se encuentra en revisión. **Este mazo es apto para Anki 2.1.50+.**
 
 ## ¿Cómo uso el mazo?
 
-For an explanation on how Kaishi fits in with learning Japanese more generally, see the [guide](https://donkuri.github.io/learn-japanese/guide/).
+Para una explicación de como usar el mazo ve la [guia](https://donkuri.github.io/learn-japanese/guide/).
 
 ## Otros mazos relacionados
 
-ねむい made a radicals deck based on Kaishi 1.5k, linking every kanji radical found in it with the first word in Kaishi that features this radical. It also covers a few more radicals that aren't in Kaishi proper. You can **use this deck in parallel with Kaishi if you struggle with kanji**, because it introduces kanji radicals as you go, helping you break them down more efficiently. You can find the deck [here on AnkiWeb](https://ankiweb.net/shared/info/1722008986). Thank you ねむい!
+ねむい hizo un mazo de radicales basado en Kaishi 1.5k, conectando cada uno de los radicales que se encuentran en el mazo con la primer palabra que los muestra en Kaishi, tambien cubre algunos radicales extra que no se encuentran en Kaishi. **Puedes usar dicho mazo en paralelo con Kaishi si es que tienes mucha dificultad para diferenciar los kanji y sus radicales** esto te ayudara a diferenciarlos de maneras más sencilla y eficiente aunque no es obligatorio si no quieres. Encuentra su mazo  can find the deck [aquí en AnkiWeb](https://ankiweb.net/shared/info/1722008986). ¡Muchas gracias ねむい!
 
 ## ¿Qué opciones estan disponibles para este deck?
 
