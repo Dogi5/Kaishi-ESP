@@ -2,18 +2,18 @@
 
 Bienvendio al repositorio público de **Kaishi 1.5k**, un deck de Anki moderno para aquellos que quieren aprender el vocabulario básico. El Kaishi 1.5k es sumamemente modular y en esta página podrás consultar como modifcarlo a tus gustos/necesidades. Así se ve el frente de la tarjeta:
 
-<img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-front.png" alt="Front of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
+![Image](https://github.com/user-attachments/assets/331b78cc-62ea-4d00-a1f0-a3f6fdbef27f)
 
 Como puedes ver tanto la palabra como la oración se encuentran al frente, con la palabra **resaltada** facilitando el aislarla de la oración y reconocerla rapidamente. Una vez que domines el mazo será más rapido repasar ya que podrás identificar la información imporante con solo un vistazo. Aquí el reverso de la tarjeta:
 
-<img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-back.png" alt="Back of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
+![Image](https://github.com/user-attachments/assets/d23e451a-4916-44b0-a651-4598039714b3)
 
 En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de este, el significado. El audio tanto de la palabra como oración tambien se encuentran presentes y si gustas, puedes añadir el acento tonal siguiendo las instrucciones de abajo. Y en caso de haber notas extra para una tarjeta se mostraran hasta abajo en el reverso.
 [Si eres nuevo a la inmersión lee esta guia primero.](https://donkuri.github.io/learn-japanese/guide/) *Link en inglés* 
-[O esta otra que esta en español] (https://brigadasos.xyz/guia-principal/introduccion) 
+[O esta otra que esta en español.](https://brigadasos.xyz/guia-principal/introduccion) 
 ### Tabla de contenidos
 
-- [¿Donde consigo el mazo?](#where-do-i-get-the-deck)
+- [¿Donde consigo el mazo?](#Donde-consigo-el-mazo)
 - [¿Cómo uso el mazo?](#how-do-i-use-this-deck)
 - [Otros mazos relacionados](#other-related-decks)
 - [¿Qué opciones estan disponibles para este deck?](#what-options-are-available-for-the-deck)
