@@ -9,11 +9,12 @@ Como puedes ver tanto la palabra como la oración se encuentran al frente, con l
 ![Image](https://github.com/user-attachments/assets/d23e451a-4916-44b0-a651-4598039714b3)
 
 En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de este, el significado. El audio tanto de la palabra como oración tambien se encuentran presentes y si gustas, puedes añadir el acento tonal siguiendo las instrucciones de abajo. Y en caso de haber notas extra para una tarjeta se mostraran hasta abajo en el reverso.
-[Si eres nuevo a la inmersión lee esta guia primero.](https://donkuri.github.io/learn-japanese/guide/) *Link en inglés* 
-[O esta otra que esta en español.](https://brigadasos.xyz/guia-principal/introduccion) 
+[Si eres nuevo a la inmersión lee esta guia primero.](https://donkuri.github.io/learn-japanese/guide/) (*Link en inglés*)
+
+[O esta otra que está en español.](https://brigadasos.xyz/guia-principal/introduccion) 
 ### Tabla de contenidos
 
-- [¿Donde consigo el mazo?](#Donde-consigo-el-mazo)
+- [¿Dónde consigo el mazo?](#Donde-consigo-el-mazo)
 - [¿Cómo uso el mazo?](#Cómo-uso-el-mazo)
 - [Otros mazos relacionados](#Otros-mazos-relacionados)
 - [¿Qué opciones estan disponibles para este mazo?](#Qué-opciones-estan-disponibles-para-este-mazo)
