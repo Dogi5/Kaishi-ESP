@@ -1,6 +1,6 @@
 # Kaishi 1.5k
 
-Bienvendio al repositorio público de **Kaishi 1.5k**, un deck de Anki moderno para aquellos que quieren aprender el vocabulario básico. El Kaishi 1.5k es sumamemente modular y en esta página podrás consultar como modifcarlo a tus gustos/necesidades. Así se ve el frente de la tarjeta:
+Bienvenido al repositorio público de **Kaishi 1.5k**, un deck de Anki moderno para aquellos que quieren aprender el vocabulario básico. El Kaishi 1.5k es sumamemente modular y en esta página podrás consultar como modifcarlo a tus gustos/necesidades. Así se ve el frente de la tarjeta:
 
 ![image_2025-04-28_161730769](https://github.com/user-attachments/assets/542fbb57-3c07-4984-a50f-edeec41d4081)
 
