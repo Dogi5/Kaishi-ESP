@@ -16,16 +16,16 @@ En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de e
 - [¿Donde consigo el mazo?](#Donde-consigo-el-mazo)
 - [¿Cómo uso el mazo?](#Cómo-uso-el-mazo)
 - [Otros mazos relacionados](#Otros-mazos-relacionados)
-- [¿Qué opciones estan disponibles para este deck?](#what-options-are-available-for-the-deck)
-- [¿Cómo añado al Kaishi a un mazo ya existente?](#how-to-import-kaishi-on-top-of-another-deck)
-- [El nacimiento de este mazo](#the-genesis-of-the-deck)
-- [Traducción del mazo](#translation-of-the-deck)
-- [¿Qué hago depués de este mazo?](#what-do-i-do-after-this-deck)
-- [Créditos](#credits)
+- [¿Qué opciones estan disponibles para este mazo?](#Qué-opciones-estan-disponibles-para-este-mazo)
+- [¿Cómo añado el Kaishi a un mazo ya existente?](#Cómo-añado-al-Kaishi-a-un-mazo-ya-existente)
+- [El nacimiento de este mazo](#El-nacimiento-de-este-mazo)
+- [Traducción del mazo](#Traducción-del-mazo)
+- [¿Qué hago depués de este mazo?](#Qué-hago-depués-de-este-mazo)
+- [Créditos](#Créditos)
 
 ## ¿Donde consigo el mazo?
 
-Puedes descargarlo en la página de [lanzamientos](https://github.com/donkuri/Kaishi/releases/) de este GitHub o en [AnkiWeb](https://ankiweb.net/shared/info/1196762551), solo si el deck no se encuentra en revisión. **Este mazo es apto para Anki 2.1.50+.**
+Puedes descargarlo en la página de [lanzamientos](https://github.com/donkuri/Kaishi/releases/) de este GitHub o en [AnkiWeb](https://ankiweb.net/shared/info/1802630894?cb=1745862326004), solo si el deck no se encuentra en revisión. **Este mazo es apto para Anki 2.1.50+.**
 
 ## ¿Cómo uso el mazo?
 
@@ -37,11 +37,11 @@ Para una explicación de como usar el mazo ve la [guia](https://donkuri.github.i
 
 ## ¿Qué opciones estan disponibles para este deck?
 
-There are multiple options you can use to change your cards. To modify them, select the Kaishi deck, click `Browse`, select any card from the deck, and click `Cards...` on the top right.
+Existen multiples opciones de personalización para este mazo y sus tarjetas, para hacerlo, entra a Anki, selecciona Kaishi y luego `Explorar`, elige cualquier tarjeta del deck y da click en `Tarjetas...` arriba a la derecha.
 
 ### Acento Tonal/Pitch Accent
 
-The most important option is whether you would like to include pitch accent on your cards. Currently, whether one should learn pitch accent or not tends to spawn pretty heated arguments in the community. We decided to take a middle ground approach: the pitch accent data is there for you, you choose whether you want to use it. If you decide not to use it, you can always enable it later. The way you enable pitch accent is easy. Here is the card options under `Back Template` for the deck (click on the small dot above the `Search` bar.)
+Lo más importante a considerar aquí es si tu quieres o no incluir el acento tonal en tus tarjetas. Actualmente se debate en la comunidad de aprendizaje la importancia del estudio del acento tonal y cuando debería de empezar a estudiarse. Se decidió tomar un enfoque neutral y añadirlo pero dejarlo a consideración del estudiante el activarlo o no; de todas maneras si después cambias de opinión respecto al tema siempre puedes activarlo o desactivarlo. Para activarlo solo tienes que hacer lo siguiente, estas son las opciones de  `Plantilla del reverso` para verlas en anki da click arruba de la barra de busqueda.
 
 ```CSS
 <div lang="ja">
@@ -84,7 +84,7 @@ The most important option is whether you would like to include pitch accent on y
 </div>
 ```
 
-Para activar el acento tonal, simplemente elimina `<!--` y `-->` que representa comentarios, tal que así: 
+Para activar el acento tonal, simplemente elimina `<!--` y `-->` que representan comentarios, tal que así: 
 
 ```CSS
 <div lang="ja">
@@ -119,9 +119,9 @@ Para activar el acento tonal, simplemente elimina `<!--` y `-->` que representa 
 </div>
 ```
 
-### Opciones menores
+### Opciones extra
 
-Hay un par de opciones menores que puedes modificar.
+Hay un par de opciones extra que puedes modificar.
 
 #### Furigana
 Si quisieras eliminar el furigana simplemente borra `furigana:` de la plantilla del reverso de la tarjeta.
@@ -163,74 +163,81 @@ max-width: 50vw;
 b{color: #5586cd}
 ```
 
-You can find the various styling options [here](https://docs.ankiweb.net/templates/styling.html). As you can see, Kaishi 1.5k uses very little options in the style tab directly. You can change the `font-family` option to get different fonts, `font-size` to change the font size and `text-align` to change the alignment of the text, for instance if you'd like the text to be left aligned. By default, Kaishi 1.5k colors **bold** words. The option to change this is `b{color: }` as you can see above. Simply put a hexcode or a color name like `red` to get that color instead. If you would like no color, simply take out the whole `b{color: }` part.
+Puedes encontrar diferentes opciones de estilo [aquí](https://docs.ankiweb.net/templates/styling.html). Como puedes observar Kasihi 1.5k usa muy pocas opciones en la tabla de diseño directamente. Puedes cambiar la opción de `font-family` para usar diferentes fuentes, `font-size` para cambiar el tamaño `text-align` para cambiar el alineamiento del texto, por ejemplo, si quisieras que estuviera en el borde izquierdo. Por determinado, Kaishi 1.5k colorea en **negritas** las palabras. Para cambiar esta opción ve a `b{color: }`  Y pon un codigo hexcode o un nombre color en inglés como `red` *rojo* para cambiarlo a ese color. Si no quisieras que tuviera color elimina `b{color: }`
 
-## How to import Kaishi on top of another deck
+## ¿Cómo añado el Kaishi a un mazo ya existente?
 
-If you already started Core2k or Tango N4-N5 (or some other similar deck) and you would like to switch to Kaishi 1.5k, you can follow these steps written by [Kuuube](https://github.com/Kuuuube).
+Si ya inciaste Core2k o Tango N4-N5 (o algún deck similar) y quieres cambiar a Kaishi 1.5k, puedes seguir los pasos escritos por [Kuuube](https://github.com/Kuuuube). *Link en inglés*
 
-1. Import Kaishi normally with the .apkg file.
-2. Go to `File > Export...` and export the Kaishi deck using `Notes in Plain Text (.txt)`. Leave all other settings default.
-3. Delete the Kaishi deck.
-4. Select the deck you want to import Kaishi on top of, select `Browse`, click any card, press `ctrl + a`, and select `Notes > Change Note Type...` on the top left menu. Make sure all notes you selected are of the same note type or else `Notes > Change Note Type...` may not show up.
-5. Change to the `Kaishi 1.5k` note type. Make sure the `Word` field in the `New` column shows the field your deck uses for the word next to it.
-    If you don't intend to delete any cards from your current deck that are not in Kaishi, make sure your other fields are lined up to the correct places too. Otherwise you can use the defaults and click `Save`.
-6. Import the Kaishi .txt file exported in step 2.
-7. When importing, make sure the Notetype is set to `Kaishi 1.5k` and the Deck is set to the deck you want to import on top of. 
-  If you intend on deleting cards not in Kaishi, add the tag `Kaishi` in the `Tag all notes` option.
-8. Click `Import`.
-9. To delete cards not in Kaishi, select your deck, click `Browse`, select your deck in left menu, append ` -tag:Kaishi` to the search bar, select any card, press `ctrl + a`, on the top left menu and go to `Notes > Delete`.
+1. Importa Kaishi normalmente con el archivo .apkg.
+2. Ve a `Archivo > Exportar...` y exporta el Kaishi usando `Notas en texto plano (.txt)`. Deja todo lo demás por determinado.
+3. Borra el Kaishi.
+4. Selecciona el mazo al que quieres añadir el Kaishi, `Explorar`, click en cualquier tarjeta, presiona `ctrl + a`, y selecciona `Notas > Cambiar tipo de notas...` arriba a la izquierda. Asegurate de que todas las tarjetas que seleccionaste son del mismo tipo, de no serlo, puede que `Notas > Cambiar tipo de notas...` no aparezca como opción.
+5. Cambia al tipo de notas `Kaishi 1.5k`. Asegurate de que el campo `Word` aparezca en la columna `Nuevo` en el campo que usa tu tipo de tarjeta para mostrar la palabra, de tal forma que queden alienados ambos campos.
+    Si no planeas borrar ninguna tarjeta de tu mazo actual que no este en Kaishi, asegurate de que los otros campos tambien esten alineados, si no es tu caso, deja los demás campos como estan y da click a `Guardar`.
+6. Importa el archivo .txt. de Kaishi del paso 2.
+7. Cuando importes, presta atención en que tu tipo de nota sea `Kaishi 1.5k` y que el deck este puesto de tal manera que se añada a tu mazo ya existente.
+  Si planeas borrar borrar tarjetas que no esten en Kaishi entonces asegurate de eitquetarlas con el nombre `Kaishi` en el campo `Etiquetar toda la notas`.
+8. Da click a `Importar`.
+9. Para borrar las tarjetas que no sean Kaishi, seleccina tu mazo y da click en `Explorar`, seleccion tu mazo en el menu izquierdo, añade, ` -etiqueta:Kaishi` a la barra de busqueda, selecciona cualquier tarjeta y presiona  `ctrl + a`, en el menu arriba a la izquierda da click en  `Notas > Eliminar`.
 
-**If you're importing on top of Core 2.3k, please see [this](https://github.com/Manhhao/anki.transfer-review-history).**
+**Si importas sobre el mazo de Core 2.3k, da click [aquí](https://github.com/Manhhao/anki.transfer-review-history).** *link en inglés*
 
-## The genesis of the deck
+## El nacimiento de este mazo
 
-This deck has its origin in a discussion between Tyogin and myself in the [TMW discord server](https://learnjapanese.moe/join/). We were both lamenting the fact that the popular beginner decks at the time had annoying flaws. Beginners kept getting confused when using Core 2k and Tango due to various issues. Tango had some obscure words in it such as ナンプラー which is a Thai fish sauce and many people weren't really interested in all the basic phrases and country names taking up such a large amount of the deck. The deck's fields were formatted terribly which made it impossible to use the deck in a different way than was originally intended, which was sentence cards. Core 2k on the other hand was modular, but had multiple mistranslations, missing or unrelated pictures and some of the sentences weren't very useful, sometimes not even reflecting the meaning of the word used.
+Este mazo tiene su origen en una discusión entre Tyogin y yo en el [servidor de Discord de TMW](https://learnjapanese.moe/join/). Ambos lamentábamos que los mazos para principiantes, tan populares en aquel entonces, tuvieran fallos molestos. Los principiantes se confundían constantemente al usar Core 2k y Tango debido a diversos problemas. Tango contenía palabras poco claras, como ナンプラー, que es una salsa de pescado tailandesa, y a mucha gente no le interesaban las frases básicas y los nombres de países que ocupaban gran parte del mazo. Los campos del mazo tenían un formato terrible, lo que imposibilitaba su uso de una forma distinta a la prevista originalmente: tarjetas de frases. Core 2k, por otro lado, era modular, pero tenía múltiples traducciones erróneas, imágenes faltantes o no relacionadas, y algunas frases no eran muy útiles, a veces ni siquiera reflejaban el significado de la palabra utilizada.
 
-Both of these issues were annoying enough that we would get beginners asking questions about it every two weeks. Tyogin proposed we fix the issue ourselves and a small team was assembled to fix these issues. We mostly took data from Core2k, Core10k, Tango N4 and Tango N5. We then combined the data, sorted the words by frequency using various Yomichan/Yomitan frequency dictionaries and selected around 1500 words. We then fixed the translations for each word, chose the best sentence for each word and fixed the sentence if it needed fixing. We had to fix roughly 120 sentences out of the 1500 we chose. After this, we generated audio for words that were missing proper audio, and a team of two people (Karifurai and cindsa) verified the pitch accent data we got from [AJT Japanese](https://ankiweb.net/shared/info/1344485230) as well as adding pitch accent notes for words that needed it. We then took out silence on the cards and normalized the audio level between the various files. On top of that, we also generated furigana from AJT Japanese for the words and the sentences. After this, we designed a basic hint targeted sentences card CSS to be used on the default version of the deck. Finally, multiple people proofread the deck to make sure we had as few errors as possible.
+Ambos problemas eran tan molestos que los principiantes nos hacían preguntas cada dos semanas. Tyogin propuso que lo solucionáramos nosotros mismos y se formó un pequeño equipo para solucionarlo. Tomamos principalmente datos de Core2k, Core10k, Tango N4 y Tango N5. Después, combinamos los datos, ordenamos las palabras por frecuencia utilizando varios diccionarios de frecuencia Yomichan/Yomitan y seleccionamos unas 1500 palabras. Después, corregimos las traducciones de cada palabra, elegimos la mejor oración para cada una y corregimos la oración si era necesario. Tuvimos que corregir aproximadamente 120 oraciones de las 1500 que seleccionamos. Después, generamos audio para las palabras que no tenían el audio correcto, y un equipo de dos personas (Karifurai y cindsa) verificó los datos de acentuación tonal que obtuvimos de [AJT Japanese](https://ankiweb.net/shared/info/1344485230), además de añadir notas de acentuación tonal para las palabras que lo requerían. Luego eliminamos el silencio de las tarjetas y normalizamos el volumen del audio entre los distintos archivos. Además, generamos furigana del AJT Japanese para las palabras y las oraciones. Después, diseñamos un CSS básico para tarjetas con oraciones específicas para usar en la versión predeterminada del mazo. Finalmente, varias personas revisaron el mazo para minimizar los errores.
 
-Kaishi, written 開始 means "start, beginning". We thought this fit properly so we decided on this name. Hopefully, this deck will be a wonderful start to your Japanese learning journey.
+Kaishi, escrito 開始 significa "Inicio, Comienzo". Pensamos que como nombre le quedaba como anillo al dedo. Y esperamos que este mazo sea un maravilloso comienzo para tu viaje en el aprendizaje de japonés. 
 
-## What do I do after this deck?
+## ¿Qué hago depués de este mazo?
 
-[Start mining](https://donkuri.github.io/learn-japanese/guide/#consuming-native-content) if you haven't already. See [this](https://github.com/donkuri/japanese-resources/?tab=readme-ov-file#mining) for a list of mining notetypes.
+[Empieza a minar](https://donkuri.github.io/learn-japanese/guide/#consuming-native-content) *link en inglés* si todavía no lo has hecho. Y mira [esto](https://github.com/donkuri/japanese-resources/?tab=readme-ov-file#mining) es una lista de tipos de notas de minado.
 
-## Translation of the deck
+## Traducción del mazo
 
-If you are interested in translating the deck in your native language, please make an issue on [the GitHub tracker](https://github.com/donkuri/Kaishi/issues). The deck has already been translated in **[Russian](https://github.com/NeonGooRoo/KaishiRu)**, **[Indonesian](https://ankiweb.net/shared/info/1512066033)**, **[Vietnamese](https://github.com/duy103zxc/kaishi-vi/releases)**, **[Ukrainian](https://github.com/maksiksq/KaishiUa)** and **[Brazilian Portuguese](https://github.com/nonsolvent/Kaishi-pt-BR)**.
+Si te interesa traducir este mazo a tu lengua materna, por favor, crea un issue en [el tracker de GitHub](https://github.com/donkuri/Kaishi/issues). El mazo ya ha sido traducido a **[Ruso](https://github.com/NeonGooRoo/KaishiRu)**, **[Indonesio](https://ankiweb.net/shared/info/1512066033)**, **[Vietnamita](https://github.com/duy103zxc/kaishi-vi/releases)**, **[Ukraniano](https://github.com/maksiksq/KaishiUa)** y **[Portuges Brasileño](https://github.com/nonsolvent/Kaishi-pt-BR)**.
 
-## Credits
+## Créditos
 
-This deck was made with the help of these people:
+Este mazo se creó con la ayuda de estas personas:
 
-[栗](https://github.com/donkuri/) - main architect, all technical aspects, translations, proofreading
+[栗](https://github.com/donkuri/) - Arquitecto principal, todos los aspectos técnicos, traducciones, corrección
 
-Tyogin - main architect, reordered the first 200 cards, changed the sentences, proofreading
+Tyogin - Arquitecto principal, reordenó las primeras 200 cartas, modificó las oraciones, corrección
 
-shoui - proofreading the entire deck, fixed translations
+shoui - Corrigió todo el mazo, corrigió las traducciones
 
-Julian - helped add notes and checked some sentence translations
+Julian - Ayudó a añadir notas y revisó la traducción de algunas oraciones
 
-karifurai - verified the pitch accent for the first 750 cards and added pitch notes
+karifurai - Verificó el acento tonal de las primeras 750 cartas y añadió notas tonales
 
-cindsa - verified the pitch accent for the last 750 cards and added pitch notes
+cindsa - Verificó el acento tonal de las últimas 750 cartas y añadió notas tonales
 
-[Kuuube](https://github.com/Kuuuube) - suggested the use of FFmpeg, wrote the transferring cards to Kaishi 1.5k section above
+[Kuuube](https://github.com/Kuuuube) - Sugirió el uso de FFmpeg, escribió la sección sobre la transferencia de cartas a Kaishi 1.5k (arriba)
 
-[stephenmk](https://github.com/stephenmk) - ran the Jmdict Furigana tool on Kaishi 1.5k to fix furigana, see v1.3.0
+[stephenmk](https://github.com/stephenmk) - Ejecutó la herramienta Jmdict Furigana en Kaishi 1.5k para corregir el problema de furigana (ver v1.3.0
 
-[Kaanium](https://github.com/kaanium) - helped make a script to convert the deck to the writing version
+[Kaanium](https://github.com/kaanium): ayudó a crear un script para convertir el mazo a la versión de escritura.
 
-These tools were used in the creation of the deck:
+Se utilizaron estas herramientas para crear el deck:
 
-[AJT Japanese](https://github.com/Ajatt-Tools/Japanese) - pitch accent, furigana and some of the audio were generated using this add-on
+[AJT Japonés](https://github.com/Ajatt-Tools/Japanese): el acento tonal, el furigana y parte del audio se generaron con este complemento.
 
-[FFmpeg](https://ffmpeg.org/) - used to take out some silent parts in various audio files
+[FFmpeg](https://ffmpeg.org/): se usó para eliminar algunas partes silenciosas en varios archivos de audio.
 
-[Tenacity](https://tenacityaudio.org/) - used to edit clipping sounds in various audio files
+[Tenacity](https://tenacityaudio.org/): se usó para editar los sonidos recortados en varios archivos de audio.
 
-We also got various ideas from multiple members of the TMW discord server, including the name of the deck itself.
+También recibimos varias ideas de varios miembros del servidor de Discord de TMW, incluyendo el nombre del deck.
 
+**Nota traductor al español**
 
+Perdonen las demoras, siendo sincero es la primera vez que traduzco algo de tal magnitud, en cierto punto casi me rindo, por lo que quiero agradecer a las siguientes dos personas por su ayuda y la presión accidental que me dieron para finalmente terminar de traducir el mazo al español.
 
+[Eytar](https://github.com/DaAlch3m1st): Revisó y corrigió más de mitad de las oraciones del Kaishi al españo.
+
+Canismaior: Revisó y corrigió la otra mitad de las oraciones y una que otra palabra.
+
+Les agradezco mucho a ustedes dos, definitivamente sin su ayuda, me habría tardado unos meses más en terminar este proyecto, finalmente agradezco a 栗 y Tyogin por crear el mazo y permitrme traducirlo al español.
 
