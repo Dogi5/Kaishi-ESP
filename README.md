@@ -238,9 +238,9 @@ También recibimos varias ideas de varios miembros del servidor de Discord de TM
 
 Perdonen las demoras, siendo sincero es la primera vez que traduzco algo de tal magnitud, en cierto punto casi me rindo, por lo que quiero agradecer a las siguientes dos personas por su ayuda y la presión accidental que me dieron para finalmente terminar de traducir el mazo al español.
 
-[Eytar](https://github.com/DaAlch3m1st): Revisó y corrigió más de mitad de las oraciones del Kaishi al españo.
+[Eytar](https://github.com/DaAlch3m1st): Revisó y corrigió más de mitad de las oraciones del Kaishi al español.
 
 Canismaior: Revisó y corrigió la otra mitad de las oraciones y una que otra palabra.
 
-Les agradezco mucho a ustedes dos, definitivamente sin su ayuda, me habría tardado unos meses más en terminar este proyecto, finalmente agradezco a 栗 y Tyogin por crear el mazo y permitrme traducirlo al español.
+Les agradezco mucho a ustedes dos, definitivamente sin su ayuda, me habría tardado unos meses más en terminar este proyecto, finalmente agradezco a 栗 y Tyogin por crear el mazo y permitirme traducirlo al español.
 
