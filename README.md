@@ -26,7 +26,7 @@ En comparación con otros mazos, Kaishi te da la lectura (furigana) y abajo de e
 
 ## ¿Donde consigo el mazo?
 
-Puedes descargarlo en la página de [lanzamientos](https://github.com/Dogi5/Kaishi-ESP/releases) de este GitHub o en [AnkiWeb](https://ankiweb.net/shared/info/1802630894?cb=1745862326004), solo si el deck no se encuentra en revisión. **Este mazo es apto para Anki 2.1.50+.**
+Puedes descargarlo en la página de [lanzamientos](https://github.com/Dogi5/Kaishi-ESP/releases) de este GitHub o en [AnkiWeb](https://ankiweb.net/shared/info/666875101), solo si el deck no se encuentra en revisión. **Este mazo es apto para Anki 2.1.50+.**
 
 ## ¿Cómo uso el mazo?
 
