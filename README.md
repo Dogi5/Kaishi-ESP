@@ -240,7 +240,7 @@ Perdonen las demoras, siendo sincero es la primera vez que traduzco algo de tal 
 
 [Eytar](https://github.com/DaAlch3m1st): Revisó y corrigió más de mitad de las oraciones del Kaishi al español.
 
-Canismaior: Revisó y corrigió la otra mitad de las oraciones y una que otra palabra.
+Canismaior: Revisó y corrigió oraciones y una que otra palabra.
 
 Les agradezco mucho a ustedes dos, definitivamente sin su ayuda, me habría tardado unos meses más en terminar este proyecto, finalmente agradezco a 栗 y Tyogin por crear el mazo y permitirme traducirlo al español.
 
